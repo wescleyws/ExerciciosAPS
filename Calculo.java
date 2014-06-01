@@ -18,4 +18,10 @@ public class Calculo {
 	static float Porcentagem(float a, float b){
 		float res= (a*b)/100;
 		return res;}
+	
+	 public int soma(int valorA, int valorB) {
+		  return valorA + valorB; } 
+	  
+	  public int subtrai(int valorA, int valorB) {
+		  return valorA - valorB; } 
 	}

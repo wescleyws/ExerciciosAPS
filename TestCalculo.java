@@ -1,6 +1,4 @@
 import org.junit.Test;
-
-import artigotdd.calculadora.teste.Calculadora;
 import static org.junit.Assert.*;
 
 /** * * @author Fabio Gomes Rocha */
@@ -48,22 +46,7 @@ public void testPorcentagem(){
 	float expResult = 10;
 	float result = Calculo.Porcentagem(a,b);
 	assertEquals(expResult, result, 0);
-	
-}@Test 
-public void somadoisvalores () throws Exception{
-	int valorA = 1;
-	int valorB = 2;
-	Calculo calculadora = new Calculo(); 
-	int soma = calculadora.soma(valorA, valorB);
-	assertEquals(3, soma);			
-	}
-
-@Test public void subraivalores() throws Exception {
-	Calculo calculadora = new Calculo();
-	int valorA = 4; int valorB = 2; 
-	int soma = calculadora.subtrai(valorA, valorB); 
-	assertEquals(2, soma); }
-
+}
 
 
 }
